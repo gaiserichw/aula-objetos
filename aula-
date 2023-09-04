@@ -1,0 +1,73 @@
+/*const filme = {
+diretor : ['robert'],
+nome : ['forrest gump'],
+data : ['7 de dezembro de 1994'],
+lista : ['tom hanks', 'robin wright', 'gary sinise', 'sally field'],
+assistir : true
+
+}
+console.log('nome do diretor:', filme.diretor);
+console.log('nome do filme:', filme.nome);
+console.log('data de lançamentos:', filme.data);
+console.log("principais atores:", filme.lista);
+console.log('eu assisti o filme?', filme.assistir);
+*/
+/*
+const pessoa = {
+    nome : ['gustavo', 'fghgfh'],
+    idade : ['15'],
+    musica : ['rock'],
+
+}
+console.log('o nome da pessoas é ', pessoa.nome[0], 'ela tem', pessoa.idade, 'anos e gosta muito de', pessoa.musica );
+*/
+/*
+const filme = {
+diretor : ['robert'],
+nome : ['forrest gump'],
+data : ['7 de dezembro de 1994'],
+lista : ['tom hanks', 'robin wright', 'gary sinise', 'sally field'],
+assistir : true,
+
+
+}
+filme.personagens = ['forrest', 'seila1', 'seila2', 'seila3'];
+
+filme.personagens [0] = 'xuxa';
+console.log(filme.lista [0] + "-> " + filme.personagens[0]);
+console.log(filme.lista [1]);
+console.log(filme);
+*/
+/*
+const usuario = {
+    nome : 'prof ',
+    idade : 25,
+    email:'prof@senacrs.com.br',
+    cidade: 'são paulo'
+}
+const novousuario = {...usuario,
+
+    nome : ' joão',
+    idade : 28
+    
+}
+console.log(usuario);
+console.log(novousuario);
+
+const listadenomes = ['mika', 'paula', 'vitor']
+const copialistadenomes = [...listadenomes]
+console.log(copialistadenomes)//['mika', 'paula', 'vitor']
+*/ 
+const pessoa = {
+ nome :'joao',
+ idade : '29',
+    }
+function  teste1(teste){
+    const teste2 = {...pessoa,
+        comidas : ['lasanha', 'pizza'],
+        melhoramigo : {nome:'jason',idade:'20'}, 
+        console.log('O nome da pessoa é', pessoa.nome, 'e suas comidas favoritas são', pessoa.idade,
+        'seu melhor amigo se Chama', teste2.melhoramigo, 'e tem', teste2.idade, 'anos')
+
+}
+
